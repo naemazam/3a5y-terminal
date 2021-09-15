@@ -28,67 +28,39 @@ Installation requires [SetUp File ](https://github.com/naemazam/3a5y-terminal/ra
 Read This File For Full Guide [Read](https://naemazam.github.io/3a5y-terminal/#line2)
 
 [![N|Solid](https://github.com/naemazam/3a5y-terminal/blob/gh-pages/images/upload/install1.PNG)](https://naemazam.github.io/3a5y-terminal/)
+
+
 ## Linux Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+3a5y-terminal requires [c](https://c.org/) v10+ to run.
 
-Install the dependencies and devDependencies and start the server.
-
-```sh
-cd dillinger
-npm i
-node app
-```
-
-For production environments...
 
 ```sh
-npm install --production
-NODE_ENV=production node app
+cd 3a5y-terminal
+```
+```sh
+cd 3asy-terminal linux
+```
+For Run on  environments...
+
+```sh
+gcc easyterminal.c -o easyterminal
 ```
 
+For Run 3a5y - terminal...
+
+```sh
+easyterminal
+```
 
 
 ## Development
 
 Want to contribute? Great!
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
-#### Building for source
-
-For production release:
-
-```sh
-gulp build --prod
-```
-
-Generating pre-built zip archives for distribution:
-
-```sh
-gulp build dist --prod
-```
+- fork it 
+- devlopment 
+- pull request
 
 
 
