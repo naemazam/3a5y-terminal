@@ -32,7 +32,7 @@ Read This File For Full Guide [Read](https://naemazam.github.io/3a5y-terminal/#l
 
 ## Linux Installation
 
-3a5y-terminal requires [c](https://c.org/) v10+ to run.
+3a5y-terminal requires [c](https://en.wikipedia.org/wiki/C_(programming_language)) v10+ to run.
 
 
 ```sh
